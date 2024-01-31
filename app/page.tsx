@@ -1,7 +1,8 @@
 import { getFrameMetadata } from '@coinbase/onchainkit';
 import type { Metadata } from 'next';
 
-const frameMetadata = getFrameMetadata({
+const frameMetadata = getFrameMetadata(
+  {
   buttons: [
       {label: 'Subscribe', action: 'post_redirect'}
   ],
