@@ -4,7 +4,6 @@ import type { Metadata } from 'next';
 const frameMetadata = getFrameMetadata({
   buttons: [
       {label: 'Subscribe', action: 'post_redirect'}
-      {label: 'Subscribe', action: 'post_redirect'}
   ],
   image: 'https://redirect-frame-01-craftdao.vercel.app/video.png',
   post_url: 'https://redirect-frame-01-craftdao.app/api/frame',       
